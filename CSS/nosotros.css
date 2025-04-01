@@ -1,0 +1,13 @@
+.valores{
+    background-color: #C4E6F8;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.valores li{
+    text-decoration: none;
+}
+
+.valores h1{
+    text-align: center;
+}

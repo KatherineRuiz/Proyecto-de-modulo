@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=M+PLUS+Rounded+1c&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1{
+    font-family: Aboreto;
+    color: #6A78B7;
+    text-align: center;
+}
+p{
+    font-family:  Roboto;
+    font-size: 25px;
+}
+li{
+    font-family:  Roboto;
+}
+body{
+    margin: 0px;
+    padding: 0PX;
+}
+header{
+    background-color: #6A8DA8;
+}
+header img{
+    width: 260px;
+}
+.encabezado{
+    display: flex ;
+    justify-content: space-evenly;
+}
+.slogan{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center ;
+    padding-inline: 130px;
+    margin: 35px;
+    border-radius: 25px;
+}
+
+.slogan img{
+    width: 270px;
+}
+
+nav li{
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+nav a{
+    font-family: M PLUS Rounded 1c;
+    text-align: center;
+    text-decoration: none;
+    color: #6A8DA8;
+    padding-inline: 20px;
+    margin-inline: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #D8DBE2 ;
+    padding: 10px;
+    width: 200px;
+}
+
+.pag{
+   background-color: #FFFFFF ;
+   padding: 10px;
+   width: 200px;
+}
+
+.info{
+    text-align: justify;
+    margin: 60px;
+}
+
+.bienvenida{
+    display: inline-flex;
+    margin: 60px;
+}
+
+.bienvenida img{
+float: right;
+border-radius: 20px;
+margin: 20px;
+}
+footer{
+    background-color: #C4E6F8;
+    padding: 30px;
+    text-align: center;
+}
+footer img{
+    width: 100px;
+}
+.pie{
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,13 +1,29 @@
+
+.about{
+    display: flex;
+    justify-content: center;
+}
 .valores{
     background-color: #C4E6F8;
     padding: 50px;
+    margin: 30px;
     border-radius: 20px;
+    width: 400px;
+    box-shadow: 0px 5px 10px #6A78B7;
 }
 
 .valores li{
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
+    font-size: 25px;
 }
 
-.valores h1{
+.informacion{
+    width: 800px;
     text-align: center;
+}
+
+.frase{
+    color: #F6CD74;
 }

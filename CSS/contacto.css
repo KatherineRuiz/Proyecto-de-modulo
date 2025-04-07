@@ -1,0 +1,86 @@
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+    background-color: #ffffff;
+  }
+  
+  .contacto-redes {
+    background-color: #dcdde4;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    margin-top: 60px;
+  }
+  
+  .contacto-redes h3 {
+    margin: 15px 0;
+    font-weight: normal;
+    letter-spacing: 1px;
+  }
+  
+  .iconos-redes img {
+    width: 40px;
+    margin: 10px;
+    vertical-align: middle;
+  }
+  
+  .contacto-redes a {
+    display: block;
+    color: #6A8DA8;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: -20px;
+    font-size: 22px;
+  }
+  
+  .formulario-contacto {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    background-color: #ffffff;
+  }
+  
+  .formulario-contacto h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+  }
+  
+  .formulario-contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .formulario-contacto input,
+  .formulario-contacto textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .formulario-contacto textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .formulario-contacto button {
+    padding: 10px;
+    background-color: #D8DBE2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .formulario-contacto button:hover {
+    background-color: #D8DBE2;
+  }

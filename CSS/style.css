@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=M+PLUS+Rounded+1c&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+@media (min-width: 900px) and (max-width: 1440px){
 h1{
     font-family: Aboreto;
     color: #6A78B7;
@@ -52,7 +54,356 @@ nav a{
     text-decoration: none;
     color: #6A8DA8;
     padding-inline: 20px;
-    margin-inline: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #D8DBE2 ;
+    padding: 10px;
+    width: 200px;
+}
+main{
+    background-image: url(../img/fondo.png);
+}
+.pag{
+   background-color: #FFFFFF ;
+   padding: 10px;
+   width: 200px;
+}
+
+.info{
+    text-align: justify;
+    margin: 60px;
+}
+
+.bienvenida{
+    display: inline-flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.bienvenida img{
+    float: right;
+    border-radius: 20px;
+    margin: 20px;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0px 0px 10px 0px #6A78B7;
+}
+footer{
+    background-color: #C4E6F8;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px #6A78B7;
+}
+footer img{
+    width: 100px;
+    height: 100px;
+}
+footer h1{
+    color: black;
+}
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.horarios {
+    font-size: 20px;
+}
+
+.lista {
+    list-style: none; 
+    padding: 0;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    h1{
+        font-family: Aboreto;
+        color: #6A78B7;
+        text-align: center;
+    }
+    p{
+        font-family:  Roboto;
+        font-size: 25px;
+    }
+    li{
+        font-family:  Roboto;
+    }
+    body{
+        margin: 0px;
+        padding: 0PX;
+    }
+    header{
+        background-color: #6A8DA8;
+    }
+    header img{
+        width: 260px;
+    }
+    .encabezado{
+        display: flex ;
+        justify-content: space-evenly;
+    }
+    .slogan{
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center ;
+        padding-inline: 130px;
+        margin: 35px;
+        border-radius: 25px;
+    }
+    
+    .slogan img{
+        width: 270px;
+    }
+    
+    nav li{
+        display: inline-flex;
+        justify-content: space-between;
+        font-size: 25px;
+        font-family: Aboreto;
+    }
+    
+    nav a{
+        font-family: M PLUS Rounded 1c;
+        text-align: center;
+        text-decoration: none;
+        color: #6A8DA8;
+        padding-inline: 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: #D8DBE2 ;
+        padding: 10px;
+        width: 200px;
+    }
+    main{
+        background-image: url(../img/fondo.png);
+    }
+    .pag{
+       background-color: #FFFFFF ;
+       padding: 10px;
+       width: 200px;
+    }
+    
+    .info{
+        text-align: justify;
+        margin: 60px;
+    }
+    
+    .bienvenida{
+        display: inline-flex;
+        align-items: center;
+        margin: 30px;
+    }
+    
+    .bienvenida img{
+        float: right;
+        border-radius: 20px;
+        margin: 20px;
+        width: 500px;
+        height: 300px;
+        box-shadow: 0px 0px 10px 0px #6A78B7;
+    }
+    footer{
+        background-color: #C4E6F8;
+        padding: 30px;
+        text-align: center;
+        box-shadow: 0px 0px 10px 0px #6A78B7;
+    }
+    footer img{
+        width: 100px;
+        height: 100px;
+    }
+    footer h1{
+        color: black;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+    }
+    
+    .horarios {
+        font-size: 20px;
+    }
+    
+    .lista {
+        list-style: none; 
+        padding: 0;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 844px){
+    h1{
+        font-family: Aboreto;
+        color: #6A78B7;
+        text-align: center;
+    }
+    p{
+        font-family:  Roboto;
+        font-size: 25px;
+    }
+    li{
+        font-family:  Roboto;
+    }
+    body{
+        margin: 0px;
+        padding: 0PX;
+    }
+    header{
+        background-color: #6A8DA8;
+    }
+    header img{
+        width: 260px;
+    }
+    .encabezado{
+        display: flex ;
+        justify-content: space-evenly;
+    }
+    .slogan{
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center ;
+        padding-inline: 130px;
+        margin: 35px;
+        border-radius: 25px;
+    }
+    
+    .slogan img{
+        width: 270px;
+    }
+    
+    nav li{
+        display: inline-flex;
+        justify-content: space-between;
+        font-size: 25px;
+        font-family: Aboreto;
+    }
+    
+    nav a{
+        font-family: M PLUS Rounded 1c;
+        text-align: center;
+        text-decoration: none;
+        color: #6A8DA8;
+        padding-inline: 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: #D8DBE2 ;
+        padding: 10px;
+        width: 200px;
+    }
+    main{
+        background-image: url(../img/fondo.png);
+    }
+    .pag{
+       background-color: #FFFFFF ;
+       padding: 10px;
+       width: 200px;
+    }
+    
+    .info{
+        text-align: justify;
+        margin: 60px;
+    }
+    
+    .bienvenida{
+        display: inline-flex;
+        align-items: center;
+        margin: 30px;
+    }
+    
+    .bienvenida img{
+        float: right;
+        border-radius: 20px;
+        margin: 20px;
+        width: 500px;
+        height: 300px;
+        box-shadow: 0px 0px 10px 0px #6A78B7;
+    }
+    footer{
+        background-color: #C4E6F8;
+        padding: 30px;
+        text-align: center;
+        box-shadow: 0px 0px 10px 0px #6A78B7;
+    }
+    footer img{
+        width: 100px;
+        height: 100px;
+    }
+    footer h1{
+        color: black;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+    }
+    
+    .horarios {
+        font-size: 20px;
+    }
+    
+    .lista {
+        list-style: none; 
+        padding: 0;
+    }
+}
+
+h1{
+    font-family: Aboreto;
+    color: #6A78B7;
+    text-align: center;
+}
+p{
+    font-family:  Roboto;
+    font-size: 25px;
+}
+li{
+    font-family:  Roboto;
+}
+body{
+    margin: 0px;
+    padding: 0PX;
+}
+header{
+    background-color: #6A8DA8;
+}
+header img{
+    width: 260px;
+}
+.encabezado{
+    display: flex ;
+    justify-content: space-evenly;
+}
+.slogan{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center ;
+    padding-inline: 130px;
+    margin: 35px;
+    border-radius: 25px;
+}
+
+.slogan img{
+    width: 270px;
+}
+
+nav{
+    text-align: center;
+}
+nav li{
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: Aboreto;
+}
+
+nav a{
+    font-family: M PLUS Rounded 1c;
+    text-align: center;
+    text-decoration: none;
+    color: #6A8DA8;
+    padding-inline: 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: #D8DBE2 ;

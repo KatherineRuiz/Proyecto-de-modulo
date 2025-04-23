@@ -23,6 +23,7 @@
 }
 .card-content{
     text-align: center;
+    padding: 15px;
 }
 .card-content a{
     background-color:#6A8DA8 ;
@@ -39,4 +40,8 @@
     font-family: Roboto;
     font-size: 20px;
     padding: 10px;
+}
+
+.card-content p{
+    font-size: 15px;
 }
